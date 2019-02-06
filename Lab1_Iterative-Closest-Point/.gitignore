@@ -1,0 +1,12 @@
+*/*
+!*/*.m
+!*/*.mat
+!*/*.swp
+!depth2cloud/*
+
+!output1/*
+!output2/*
+
+data_mat1
+*.pdf
+*.m~
