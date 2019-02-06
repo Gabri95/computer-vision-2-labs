@@ -25,6 +25,7 @@ to explain how drawbacks in ICP algorithm can be overcome, including additional 
 discussed in the additional documentation or proposed in relative literatures.
 
 [1] S. Rusinkiewicz and M. Levoy. Efficient variants of the ICP algorithm. Third International Conference on 3D Digital Imaging and Modeling (3DIM), 2001.
+
 [2] Z. Zhang. Iterative Point Matching for Registration of Free-Form Curves and Surfaces. International Journal of Computer Vision, 13:2, 119-152, 1994.
 
 ---
