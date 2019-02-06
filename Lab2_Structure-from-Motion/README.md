@@ -1,13 +1,4 @@
-# Labs for Computer Vision 2 course, MSc AI @ UvA 2018/2019.
-
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  
-Solutions and implementation from [Davide Belli](https://github.com/davide-belli) and [Gabriele Cesa](https://github.com/Gabri95).
-
----
-
-## Assignment 2: Structure-from-Motion
+# Assignment 2: Structure-from-Motion
 
 In this assignment we are going to implement Structure-from-Motion algorithm with the goal
 to reconstruct a 3D-structure from a set of images picturing the same object. At first we are
@@ -23,16 +14,16 @@ going to work with dense blocks in the matrix. By computing once again SVD compo
 matrices representing Structure and Motion can be derived. Some improvements among which affine
 ambiguity removal will be discussed and implemented to conclude this assignment.
 
-
-
 ---
 
-## Copyright
+To run the experiments, execute "experiments_*.m" scripts in the respective subdirectories of ./src
+You can find already produced results under ./output
 
-Copyright © 2019 Davide Belli, Gabriele Cesa.
 
-<p align=“justify”>
-This project is distributed under the <a href="LICENSE">MIT license</a>.  
-Please follow the <a href="http://student.uva.nl/en/content/az/plagiarism-and-fraud/plagiarism-and-fraud.html">UvA regulations governing Fraud and Plagiarism</a> in case you are a student.
-</p>
+Please add the following content to the project before running the code:
 
+VLFeat library:
+  ./src/vlfeat
+
+Dataset
+  ./Data/House

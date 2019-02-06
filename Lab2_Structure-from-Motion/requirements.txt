@@ -1,0 +1,7 @@
+Please add the following content to the project to run the code:
+
+VLFeat library:
+  ./src/vlfeat
+
+Dataset
+  ./Data/House
