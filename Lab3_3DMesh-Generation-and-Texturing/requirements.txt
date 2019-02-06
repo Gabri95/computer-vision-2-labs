@@ -1,0 +1,8 @@
+
+
+Eigen 3.2.92
+OpenCV 4.0.0-pre
+VTK = 6.3
+PCL = 1.7.2
+
+(all linked to QT4)

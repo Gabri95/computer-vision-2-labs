@@ -23,9 +23,26 @@ going to work with dense blocks in the matrix. By computing once again SVD compo
 matrices representing Structure and Motion can be derived. Some improvements among which affine
 ambiguity removal will be discussed and implemented to conclude this assignment.
 
+---
 
+## Assignment 3: 3D Mesh Generation and Texturing
+
+
+In this assignment we are going to work at 3D Mesh Reconstruction and Texturing from 2D images
+and depth maps. For this purpose, we are going to use C++ libraries provided in PointCloudLibrary
+(PCL). The first step towards 3D reconstruction is to generate a 3D Point cloud of the scene from
+depth images, as we have seen in the previous assignments. Once the point cloud is generated
+we can choose a surface reconstruction algorithm to interpolate points by generating a 3D surface
+connecting them. Examples of such algorithms are Poisson Reconstruction and Marching Cube.
+Some post-processing techniques are then required, including smoothing surfaces and closing holes
+in volumes by connecting surfaces (watertighting). Once the 3D Mesh is generated, we will proceed
+with Texturing. This final step aims to map color information from 2D images to RGB polygons or
+points in the 3D reconstruction.
 
 ---
+
+
+
 
 ## Copyright
 
